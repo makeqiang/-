@@ -12,7 +12,7 @@ namespace 简单工厂模式
         {
             if (NumberB !=0)
             {
-                return NumberA / NumberB;
+                return NumberA / NumberB; 
             }
             else
             {
