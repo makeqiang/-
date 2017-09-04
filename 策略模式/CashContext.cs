@@ -29,7 +29,7 @@ namespace 策略模式
         }
         public double GetResult(double money)//根据传入的策略对象,调用它的具体算法
         {
-            return cashier.DiscountMoney(money);//实现Strategy类的方法
+            return cashier.DiscountMoney(money);//实现Strategy类的方法 
         }
     }
 }
